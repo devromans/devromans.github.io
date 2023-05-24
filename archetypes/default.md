@@ -1,4 +1,5 @@
 ---
+weight: 5
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
@@ -19,10 +20,10 @@ featuredImagePreview: ""
 hiddenFromHomePage: false
 hiddenFromSearch: false
 twemoji: false
-lightgallery: true
-ruby: true
-fraction: true
-fontawesome: true
+lightgallery: false
+ruby: false
+fraction: false
+fontawesome: false
 linkToMarkdown: true
 rssFullText: false
 
@@ -35,7 +36,7 @@ code:
 math:
   enable: false
 # ...
-mapbox:
+# mapbox:
 # ...
 share:
   enable: true
@@ -43,20 +44,20 @@ share:
 comment:
   enable: false
 # ...
-library:
-  css:
-    # someCSS = "some.css"
-    # located in "assets/"
-    # Or
-    # someCSS = "https://cdn.example.com/some.css"
-  js:
-    # someJS = "some.js"
-    # located in "assets/"
-    # Or
-    # someJS = "https://cdn.example.com/some.js"
-  seo:
-    images: []
-    # ...
+#library:
+#  css:
+#    # someCSS = "some.css"
+#    # located in "assets/"
+#    # Or
+#    # someCSS = "https://cdn.example.com/some.css"
+#  js:
+#    # someJS = "some.js"
+#    # located in "assets/"
+#    # Or
+#    # someJS = "https://cdn.example.com/some.js"
+#  seo:
+#    images: []
+#    # ...
 ---
 
 <!--more-->
