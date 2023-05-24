@@ -8,7 +8,7 @@ hasCJKLanguage = false
 
 enableEmoji = true
 
-enableGitInfo = true
+enableGitInfo = false
 
 enableInlineShortcodes = true
 
