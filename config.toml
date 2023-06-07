@@ -4,6 +4,8 @@ defaultContentLanguage = "en"
 languageCode = 'en'
 languageName = "English"
 
+title = "Roman's Blog"
+
 hasCJKLanguage = false
 
 enableEmoji = true
