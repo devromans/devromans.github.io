@@ -1,0 +1,4 @@
+analytics:
+  enable: true
+  umami:
+    id: "6df2e912-556c-4c0c-a79a-0af63c135f54"

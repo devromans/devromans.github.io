@@ -1,0 +1,61 @@
+main:
+  - identifier: "about"
+    name: "About"
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-address-card'></i>"
+    title: "About"
+    pageRef: "/about"
+    weight: 10
+
+  - identifier: "blog"
+    name: "Blog"
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-signs-post'></i>"
+    title: "Blog Posts"
+    pageRef: "/blog"
+    weight: 20
+
+  - identifier: "tags"
+    name: "Tags"
+    params:
+    parent:
+    post:
+    pre: "<i class='fas fa-tags fa-fw'></i>"
+    title: "Tags"
+    pageRef: "/tags"
+    weight: 30
+
+  - identifier: "categories"
+    name: "Categories"
+    params:
+    parent:
+    post:
+    pre: "<i class='fas fa-folder fa-fw'></i>"
+    title: "Categories"
+    pageRef: "/categories"
+    weight: 40
+
+  - identifier: "gym"
+    name: ""
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-dumbbell'></i>"
+    title: "Gym"
+    pageRef: "/gym"
+    weight: 45
+
+  - identifier: "github"
+    name: ""
+    params:
+      rel: "external nofollow noopener noreferrer"
+    parent:
+    post:
+    pre: "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+    title: "GitHub"
+    url: "https://github.com/devromans"
+    weight: 50

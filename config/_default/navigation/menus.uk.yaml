@@ -1,0 +1,61 @@
+main:
+  - identifier: "about"
+    name: "Про мене"
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-address-card'></i>"
+    title: "Про автора"
+    pageRef: "/about"
+    weight: 10
+
+  - identifier: "blog"
+    name: "Блог"
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-signs-post'></i>"
+    title: "Публікації в блозі"
+    pageRef: "/blog"
+    weight: 20
+
+  - identifier: "tags"
+    name: "Теги"
+    params:
+    parent:
+    post:
+    pre: "<i class='fas fa-tags fa-fw'></i>"
+    title: "Теги"
+    pageRef: "/tags"
+    weight: 30
+
+  - identifier: "categories"
+    name: "Категорії"
+    params:
+    parent:
+    post:
+    pre: "<i class='fas fa-folder fa-fw'></i>"
+    title: "Категорії"
+    pageRef: "/categories"
+    weight: 40
+
+  - identifier: "gym"
+    name: ""
+    params:
+    parent:
+    post:
+    pre: "<i class='fa-solid fa-dumbbell'></i>"
+    title: "Спорт. зал"
+    pageRef: "/gym"
+    weight: 45
+
+  - identifier: "github"
+    name: ""
+    params:
+      rel: "external nofollow noopener noreferrer"
+    parent:
+    post:
+    pre: "<i class='fab fa-github fa-fw' aria-hidden='true'></i>"
+    title: "GitHub"
+    url: "https://github.com/devromans"
+    weight: 50

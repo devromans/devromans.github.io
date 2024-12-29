@@ -17,6 +17,8 @@ GTAGS
 # OS
 .DS_Store
 
+### Hugo template
+
 # Generated files by hugo
 /public/
 /resources/_gen/

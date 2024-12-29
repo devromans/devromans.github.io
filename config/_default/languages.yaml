@@ -1,0 +1,21 @@
+en:
+  disabled: false
+  languageCode: "en"
+  languageDirection: "ltr"
+  languageName: "English"
+  title: "Roman's Blog"
+  weight: 10
+uk:
+  disabled: false
+  languageCode: "uk"
+  languageDirection: "ltr"
+  languageName: "Українська"
+  #title: "Українська"
+  weight: 20
+ru:
+  disabled: false
+  languageCode: "ru"
+  languageDirection: "ltr"
+  languageName: "Русский"
+  #title: "Русский"
+  weight: 30

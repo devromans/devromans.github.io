@@ -1,0 +1,15 @@
+baseURL: https://rshopin.com/
+
+# License
+copyright: ""
+
+timeZone: "Europe/Amsterdam"
+defaultContentLanguage: "en"
+languageCode: "en"
+
+disableHugoGeneratorInject: true
+enableEmoji: true
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+title: "Roman's Blog"
+theme: "LoveIt"

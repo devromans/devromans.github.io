@@ -1,0 +1,4 @@
+exif:
+  disableDate: true
+  disableLatLong: true
+  excludeFields: ".*"
